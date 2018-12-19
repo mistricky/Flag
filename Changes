@@ -1,0 +1,6 @@
+Revision history for Perl extension Flag.
+
+0.01  Wed Dec 19 20:07:42 2018
+	- original version; created by h2xs 1.23 with options
+		-AX -n Flag
+
