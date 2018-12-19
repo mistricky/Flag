@@ -1,5 +1,4 @@
-Flag version 0.01
-=================
+# Flag version 0.01
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
@@ -16,25 +15,23 @@ INSTALLATION
 
 To install this module type the following:
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+perl Makefile.PL
+make
+make test
+make install
 
 DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+blah blah blah
 
 COPYRIGHT AND LICENCE
 
 Put the correct copyright and licence information here.
 
-Copyright (C) 2018 by 赵展浩
+Copyright (C) 2018 by Younccat
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.18.2 or,
 at your option, any later version of Perl 5 you may have available.
-
-
