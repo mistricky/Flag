@@ -4,6 +4,7 @@ use 5.018002;
 use strict;
 use warnings;
 use Term::ANSIColor;
+use Date;
 
 require Exporter;
 
@@ -35,10 +36,10 @@ sub warn {
   print_color_msg($msg, WARN_COLOR);
 }
 
-sub error {
+sub err {
   my ($msg) = @_;
 
-  print_color_msg($msg, ERROR_COLOR);
+  print_color_msg("Error: $msg", ERROR_COLOR);
 }
 
 sub info {
@@ -49,7 +50,8 @@ sub info {
 
 sub log {
   my ($msg) = @_;
-  $msg = "";
 
-  print_color_msg($msg, LOG_COLOR);
+  print_color_msg(get_date_msg . " $msg", LOG_COLOR);
 }
+
+1;
